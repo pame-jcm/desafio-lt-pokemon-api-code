@@ -4,8 +4,15 @@
 
 $font-family-sans-serif: 'Raleway', sans-serif;
 
-// DECLARATION
+$theme-pokemon: (
+    'gris':#939090,
+    'taupe':#3d3d3d,
+    'granite':#1e1e28
+);
 
+// DECLARATION
 @import '../../../../node_modules/bootstrap/scss/_functions.scss';
 @import '../../../../node_modules/bootstrap/scss/_variables.scss';
 @import '../../../../node_modules/bootstrap/scss/_mixins.scss';
+
+$theme-colors: map-merge($theme-colors, $theme-pokemon);

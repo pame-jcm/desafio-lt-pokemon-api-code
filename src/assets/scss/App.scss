@@ -2,5 +2,8 @@
 // Abstract
 @import 'abstract/variables';
 
-/* import bootstrap para establecer cambios */ 
+// Components
+@import 'components/navbar';
+
+/*   import bootstrap para establecer cambios   */ 
 @import  "../../../node_modules/bootstrap/scss/bootstrap.scss";

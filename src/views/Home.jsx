@@ -1,4 +1,4 @@
-import { Container, Row, Col } from 'react-bootstrap';
+import { Container, Row } from 'react-bootstrap';
 import pokemon from '../assets/image/pokemon_prin.jpg';
 
 const Home = () => {

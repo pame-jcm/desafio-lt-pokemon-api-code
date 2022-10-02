@@ -5,6 +5,7 @@ import NavbarPrin from './components/NavbarPrin';
 import Home from './views/Home';
 import Pokemones from './views/Pokemones';
 import DetallePokemon from './views/DetallePokemon';
+import NotFound from './views/NotFound';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
               <Route path="/" element={<Home/>} />
               <Route path="/pokemones" element={<Pokemones/>}/>
               <Route path="/pokemones/:name" element={<DetallePokemon/>}/>
+              <Route path="*" element={<NotFound />}/>
             </Routes>
         </BrowserRouter>
 
